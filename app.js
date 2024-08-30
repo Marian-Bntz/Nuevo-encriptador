@@ -14,7 +14,7 @@ btnEncriptar.addEventListener("click", e=>{
     if(texto == ""){
         atencion.style.background = "yellow";        
         atencion.style.fontWeight = "800";
-        atención.style.color = "black";
+        atencion.style.color = "black";
         atencion.textContent = "El campo de texto no debe estar vacío";
 
         setTimeout(()=>{
