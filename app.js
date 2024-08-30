@@ -117,7 +117,7 @@ btnCopiar.addEventListener("click", e=>{
     e.preventDefault();
     let copiar = respuesta;
     copiar.select();
-    navigator.clipboard.readText();
-
+    navigator.clipboard.writeText(respuesta.value);
+    
 
 });
